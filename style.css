@@ -289,3 +289,12 @@ nav h1 {
   width: 100%;
   margin: 0;
 }
+#opspark a:hover {
+  background: #ff74c5;
+  color: #000;
+}
+
+#khan a:hover {
+  background: #460037;
+  color: #ffffff;
+}
