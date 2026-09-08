@@ -34,9 +34,20 @@ $(function () {
 
 createPlatform(0,700,600,10)
 createPlatform(850,700,800,10)
+createPlatform(1000,580,1500,10)
+createPlatform(1300,390,150,10)
+createPlatform(1100,90,10,400)
+createPlatform(1100,490,100,10)
+createPlatform(1100,290,100,10)
+createPlatform(1100,90,100,10)
+createPlatform(1300,190,150,10)
 
     // TODO 3 - Create Collectables
-createCollectable("grace", 1300, 700, 0, 1.11);
+createCollectable("gold", 570, 650, 0, 1);
+createCollectable("silver", 1130, 250, 0, 1.11);
+createCollectable("diamond", 1300, 650, 0, 1.11);
+createCollectable("copper", 1330, 350, 0, 1.11);
+createCollectable("cart", 1130, 50, 0, 1.11);
 
 
 
@@ -48,7 +59,12 @@ createCannon("top", 800, 800);
 createCannon("top", 850, 700);
 createCannon("top", 900, 600);
 createCannon("left", 660, 1);
-//createCannon("left", 650, 1000);
+createCannon("left", 650, 1000);
+createCannon("top", 1310, 1000);
+createCannon("left", 30, 15000);
+
+
+
 
     
     //////////////////////////////////

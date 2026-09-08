@@ -77,7 +77,7 @@ let fakePlatforms = [];
 let badPlatforms = [];
 let cannons = [];
 const cannonWidth = 118;
-const cannonHeight = 80;
+const cannonHeight = 50;
 let projectiles = [];
 const defaultProjectileWidth = 24;
 const defaultProjectileHeight = defaultProjectileWidth;
@@ -97,9 +97,16 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  diamonddumb: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
-};
+  gold: { image: "images/collectables/goldBar.png" },
+  silver: { image: "images/collectables/silverBar.png" },
+  gold: { image: "images/collectables/goldBar.png" },
+  diamond: { image: "images/collectables/diamond.png" },
+  copper: { image: "images/collectables/copperBar.png" },
+  cart: { image: "images/collectables/cart.png" },
+  
+}
