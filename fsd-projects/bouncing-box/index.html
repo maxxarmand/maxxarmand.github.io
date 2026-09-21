@@ -112,13 +112,6 @@
             speedY = speedY *-1
         } else if (positionY < 0 && hasWon === false){
           speedY = speedY *-1
-        }else if(hasWon === true){
-          alert ("You've Won")
-          speedY = 0
-        }else if(hasLost === true){
-          alert ("You Suck")
-          speed = 0
-          speedY = 0
         }
         
 
@@ -150,6 +143,10 @@
             speed = 30
             hasWon = true
           }
+          if(hasWon === true){
+          alert ("You've Won")
+          speedY = 0
+        }
           
          
         }
@@ -160,6 +157,11 @@
           hasLost = true
           console.log ("looser")
           }
+          if(hasLost === true){
+          alert ("You Suck")
+          speed = 0
+          speedY = 0
+        }
           
         }
 
