@@ -47,3 +47,9 @@
     background: #0080FF;
     color: white;
 }
+canvas{
+background: #ff00bf;
+background-image: url(`fsd-projects/circularity/img/background.png`);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
